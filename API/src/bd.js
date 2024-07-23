@@ -1,4 +1,4 @@
-const senha = '@iello20ollei@'
+const senha = '###########'
 
 const conectar = async (senha)=>{
     if(global.conexao && global.conexao.state != 'disconect') return global.conexao 
