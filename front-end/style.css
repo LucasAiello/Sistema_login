@@ -1,0 +1,180 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #eef;
+}
+
+h1
+{
+    font-size: 3em;
+    margin: 10px 0px;
+}
+
+main
+{
+    
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#caixa_login
+{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 500px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+input
+{
+    background-color: #eef;
+    padding: 2px 15px;
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    display: block;
+}
+
+#btn_enviar
+{
+    background-color: #c3e6df;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 200px;
+}
+
+label
+{
+    cursor: pointer;
+    font-size: large;
+    margin: 15px 0px;
+}
+
+button
+{   
+    margin: 20px;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+
+.btn_aluno
+{
+    margin: 5px;
+    width: 50px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.aluno
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    width: 95%;
+    height: 25px;
+    margin: 5px auto;
+    border: 2px solid black;
+    
+}
+
+.aluno:hover
+{
+    border: 2px solid #aaa;
+    background-color: #eef;
+    cursor: pointer;
+}
+
+#caixa_alunos
+{
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 25px;
+    justify-content: space-around;
+    flex-direction: column;
+    display: flex;
+}
+
+#navegacao
+{
+    width: 100%;
+    height: 100px;
+    background-color: #222;
+}
+
+.descri
+{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #222;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.descri h2
+{
+    margin-left: 30px;
+    font-size: large;
+    color: #fff;
+}
+
+.caixa
+{
+    width: 80%;
+    margin: 50px auto;
+}
+
+#caixa_edicao h3{
+    margin: 10px 0 0 25px;
+    font-size: large;
+}
+
+#caixa_edicao label{
+    display: inline;
+    margin: 25px 25px 0 25px;
+}
+
+#inp_pts
+{
+    text-align: center;
+    margin-top: 15px;
+    width: 40px;
+    display: inline;
+}
+
+#caixa_edicao
+{
+    background-color: #fff;
+    width: 30%;
+    height: 200px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 3px solid black;
+}
+
+#btn_pontos{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
